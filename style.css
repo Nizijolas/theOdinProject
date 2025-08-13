@@ -1,7 +1,28 @@
 .book-card{
+    text-align: center;
     margin: 10px auto;
     width: 60%;
     padding: 10px;
     border:solid  black;
     border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin: auto;
+}
+
+.deleteButton{
+    background-color: red;
+    margin: auto;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem
+}
+
+.deleteButton:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: black;
 }
