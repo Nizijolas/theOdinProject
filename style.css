@@ -21,8 +21,79 @@ h1{
     font-size: 0.7rem
 }
 
-.deleteButton:hover{
+button:hover{
     cursor: pointer;
     background-color: gray;
     color: black;
+}
+
+button{
+    display: block;
+}
+.spanRead{
+    display: block;
+    font: bold;
+    color: green;
+    margin: 5px auto;
+}
+
+.spanNotRead{
+    display: block;
+    font: bold;
+    color: rgb(82, 10, 10);
+    margin: 5px auto;
+}
+
+.buttonNotRead{
+    background-color: rgb(255, 255, 255);
+    margin: 5px auto;
+    border-radius: 3px;
+    border: 1px solid rgb(60, 255, 0);
+    color: rgb(4, 103, 2);
+    font-weight: bold;
+    font-size: 0.7rem
+}
+
+.buttonRead{
+    margin: 5px auto;
+    font-size: 0.7rem;
+
+}
+
+#addBook{
+    margin: 5px auto;
+    width: 20%;
+    text-align: center;
+    border : solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#addBook:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+#form{
+    position: absolute;
+    z-index: 100;
+    padding: 100px;
+}
+
+#form::backdrop{
+    background: rgba(0, 0, 0, 0.4); /* assombrissement */
+    backdrop-filter: blur(5px);     /* flou */
+}
+
+#closeDialog{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0%;
+    border: solid  rgb(111, 53, 53);
+    border-width: 1px;
+}
+
+form{
+    display: grid;
 }
