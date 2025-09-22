@@ -1,0 +1,23 @@
+#cadre{
+    width: 30%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+}
+#cadre  > div {
+    border:solid black;
+    text-align: center;
+    align-items: center;
+    font-size: xx-large;
+}
+body{
+    width: 80%;
+    margin: auto
+}
+#start{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
